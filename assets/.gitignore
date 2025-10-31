@@ -1,0 +1,4 @@
+*.line-plot.svg
+*.drawio.svg
+*.stats.csv
+!.pdf

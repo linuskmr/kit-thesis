@@ -1,0 +1,11 @@
+title = "Answering the Question of Life by Interpreting the Number 42"
+thesisType = "Master"
+author = "John Doe"
+keywords = ["42", "Computer Science"]
+startDate = 2025-04-29
+endDate = 2024-10-29
+examiners = ["Prof. Alice Smith", "Prof. Bob Johnson"]
+supervisors = ["Dr. Carol White", "Dr. David Brown"]
+department = "Department of Informatics"
+institute = "Institute of Computer Engineering"
+researchGroup = "Operating Systems Group"
