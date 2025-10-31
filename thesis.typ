@@ -34,7 +34,6 @@
 ]
 
 
-
 #show raw.where(block: true): it => {
 	set align(left)
 	set text(size: 8pt)
@@ -74,11 +73,6 @@
 
 #set text(size: 12pt, font: "libertinus serif") // The official template uses "CMU Serif"
 #set text(costs: (runt: 200%, widow: 200%, orphan: 200%)) // Avoid runts (ending a paragraph with a line with a single word), widows (leaving a single line of paragraph on the next page) and orphans (leaving single line of paragraph on the previous page)
-
-
-// Address page
-// #include "address.typ"
-
 
 
 // Statutory Declaration
@@ -274,8 +268,6 @@
 #include "chapters/6-evaluation.typ"
 #include "chapters/7-discussion.typ"
 #include "chapters/8-conclusion.typ"
-
-// #include "chapters/"
 
 
 // #counter(heading).update(0)

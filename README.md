@@ -8,13 +8,14 @@ TLDR: Run `make` and open `thesis.pdf`.
 
 ![](./lib/thesis-cover-for-readme.png)
 
+
 ## Features
 
 - KIT corporate design
-- Automatic generation of SVG line plots (`.line-plot.svg`) from CSVs (`.line-plot.csv`) using Python/matplotlib in the [`assets/`](./assets/) directory
-- Automatic generation of basic statistics (`.stats.csv`) from CSVs (`.line-plot.csv`) data using Python/pandas including mean, median, standard deviation, min, max, and count
-- Automatic generation of Typst tables from CSV data, for example to show computed statistics
-- Automatic conversion of draw.io PDF exports to SVG for embedding in Typst (see [Tips & Tricks](#tips-and-tricks))
+- Generation of SVG line plots (`.line-plot.svg`) from CSVs (`.line-plot.csv`) using Python/matplotlib in the [`assets/`](./assets/) directory
+- Generation of basic statistics (`.stats.csv`) from CSVs (`.line-plot.csv`) data using Python/pandas including mean, median, standard deviation, min, max, and count
+- Generation of Typst tables from CSV data, for example to show computed statistics
+- Conversion of draw.io PDF exports to SVG for embedding in Typst (see [Tips & Tricks](#tips-and-tricks))
 - Bibliography management using BibTeX (see [`references.bib`](./references.bib))
 - Macros for showing ToDo blocks (`#todo-block[text]`) and ToDo footnotes (`#todo[text]`)
 - Makefile for easy building and watching for changes
