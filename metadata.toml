@@ -1,9 +1,9 @@
 title = "Answering the Question of Life by Interpreting the Number 42"
-thesisType = "Master"
+thesisType = "Master" # Bachelor or Master
 author = "John Doe"
 keywords = ["42", "Computer Science"]
-startDate = 2025-04-29
-endDate = 2024-10-29
+startDate = 2025-04-29 # YYYY-MM-DD
+endDate = 2024-10-29 # YYYY-MM-DD
 examiners = ["Prof. Alice Smith", "Prof. Bob Johnson"]
 supervisors = ["Dr. Carol White", "Dr. David Brown"]
 department = "Department of Informatics"
