@@ -2,4 +2,4 @@
 
 = Conclusion
 
-In this thesis, we made significant contributions to to interpret the number 42 by using a novel approach#todo[Replace with actual content].
+In this thesis, we made significant contributions to interpret the number 42 by using a novel approach#todo[Replace with actual content].
