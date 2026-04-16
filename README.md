@@ -1,6 +1,6 @@
 # KIT Thesis
 
-Template for writing a thesis at the [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/) using [Typst](https://typst.app/).
+An (unoffical) template for writing a thesis at the [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/) using [Typst](https://typst.app/).
 
 > Based on https://github.com/eneoli/kit-thesis-template.
 
@@ -39,3 +39,8 @@ TLDR: Run `make` and open `thesis.pdf`.
 - **DOI hyperlink bug**: If a citation contains a DOI, the first part of the link (i.e. the `https://doi.org/`) is clickable. If the DOI is removed and a URL is used instead, the URL is shown and is fully clickable.
 - **Labels**: To better organize labels and avoid naming conflicts, consider using labels with their category and section, i.e. `<sec:SECTION>`, `<fig:SECTION:FIGURE>`, `<tab:SECTION:TABLE>`.
 - **Draw.io figures**: If you want to use [draw.io](https://draw.io) to create figures, export them as PDF (not as SVG) and put them in the [`assets/`](./assets/) directory. The Makefile automatically converts them to SVG for embedding in Typst. Trying to export SVGs directly from draw.io and embedding them in Typst leads to black boxes instead of the actual figure.
+
+
+## License
+
+The [KIT logo](./lib/KIT_Logo.svg) is property of the [Karlsruhe Institute of Technology (KIT)](https://kit.edu) and is used according to the [KIT Corporate Design Guidelines](https://kit-cd.km.kit.edu). The rest of the code in this repository is licensed under the [MIT-0 License](./LICENSE).
