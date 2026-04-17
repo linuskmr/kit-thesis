@@ -1,7 +1,11 @@
-.PHONY: clean watch build build-subdirs check-todo clean-subdirs
+.PHONY: clean watch build build-subdirs check-todo clean-subdirs install uninstall
 
 SUBDIRS := $(sort $(dir $(wildcard */Makefile)))
 
+PACKAGE_NAME     = kit-thesis
+PACKAGE_VERSION  = 0.1.0
+PREFIX          ?= $(HOME)/.local/share/typst/packages/local
+INSTALLDIR       = $(PREFIX)/$(PACKAGE_NAME)/$(PACKAGE_VERSION)
 
 watch: build-subdirs
 	typst watch thesis.typ
@@ -28,3 +32,11 @@ clean-subdirs:
 	@for d in $(SUBDIRS); do \
 		$(MAKE) -C $$d clean; \
 	done
+
+install:
+	mkdir -p $(INSTALLDIR)
+	cp -r * $(INSTALLDIR)
+
+uninstall:
+	rm -rf $(INSTALLDIR)
+

@@ -1,0 +1,21 @@
+[package]
+name = "kit-thesis"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = [
+  "Linus <linuskmr.dev@gmail.com>"
+]
+license = "MIT-0"
+description = "Typst template for a thesis at Karlsruhe Institute of Technology (KIT) "
+homepage = "https://github.com/linuskmr/kit-thesis"
+repository = "https://github.com/linuskmr/kit-thesis"
+keywords = []
+categories = ["thesis"]
+disciplines = ["computer-science", "education"]
+# compiler = ""
+
+[template]
+path = "template"
+entrypoint = "thesis.typ"
+thumbnail = "lib/thesis-cover-for-readme.png"
+
