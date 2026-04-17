@@ -12,7 +12,7 @@
 	department: "Department of Informatics",
 	institute: "Institute of Computer Engineering",
 	researchGroup: "Operating Systems Group",
-	abstract: "Your abstract",
+	abstract: include "chapters/0-abstract.typ",
 	references: bibliography("references.bib")
 )
 
