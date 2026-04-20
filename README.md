@@ -4,7 +4,7 @@ An (unoffical) template for writing a thesis at the [Karlsruhe Institute of Tech
 
 > Based on https://github.com/eneoli/kit-thesis-template.
 
-TLDR: Run `make` and open `thesis.pdf`.
+TLDR: Run `make install`, create a new project `typst init @local/kit-thesis:0.1.0` and open `kit-thesis/thesis.pdf`.
 
 ![](./lib/thesis-cover-for-readme.png)
 
@@ -26,11 +26,13 @@ TLDR: Run `make` and open `thesis.pdf`.
 ## Usage
 
 1. Install [Typst](https://typst.app/), [matplotlib](https://pypi.org/project/matplotlib/) and [pandas](https://pypi.org/project/pandas/) for Python
-2. Fill your data in [`metadata.toml`](./metadata.toml)
-3. Write your thesis text in the corresponding files for each chapter in [`chapters/`](./chapters/)
-4. Add your references to [`references.bib`](./references.bib) (BibTeX format)
-5. Add your figures, CSV data and draw.io-generated PDFs to the [`assets/`](./assets/) directory
-6. Run `make watch` to auto-build on changes or `make build` to build once, and open `thesis.pdf`
+2. Install this template to your local packages `make install`
+3. Create a new project `typst init @local/kit-thesis:0.1.0` and `cd kit-thesis`
+4. Fill your data in `thesis.typ`
+5. Write your thesis text in the corresponding files for each chapter in [`chapters/`](./chapters/)
+6. Add your references to [`references.bib`](./references.bib) (BibTeX format)
+7. Add your figures, CSV data and draw.io-generated PDFs to the [`assets/`](./assets/) directory
+8. Run `make watch` to auto-build on changes or `make build` to build once, and open `thesis.pdf`
 
 
 ## Tips and Tricks

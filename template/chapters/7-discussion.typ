@@ -1,4 +1,4 @@
-#import "../lib/todo.typ": todo-block, todo
+#import "@local/kit-thesis:0.1.0": todo-block, todo
 
 = Discussion <sec:discussion>
 

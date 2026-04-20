@@ -1,4 +1,4 @@
-#import "../lib/todo.typ": todo, todo-block
+#import "@local/kit-thesis:0.1.0": todo, todo-block
 
 = Evaluation <sec:evaluation>
 
